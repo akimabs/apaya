@@ -12,6 +12,7 @@ const serverOption = {
   qrRefreshS: 15,
   devtools: false,
   chromiumArgs: ["--no-sandbox", "--disable-setuid-sandbox"],
+  waitUntil: 'domcontentloaded'
 };
 
 const opsys = process.platform;
